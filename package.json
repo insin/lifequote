@@ -1,0 +1,24 @@
+{
+  "name": "lifequote",
+  "version": "0.0.1",
+  "description": "Quick Life quoting",
+  "dependencies": {
+    "express": "~3.4.8",
+    "uuid": "~1.4.1"
+  },
+  "devDependencies": {
+    "browserify": "~3.20.0",
+    "glob": "~3.2.8",
+    "gulp": "~3.4.0",
+    "gulp-browserify": "~0.3.3",
+    "gulp-concat": "~2.1.7",
+    "gulp-flatten": "0.0.2",
+    "gulp-react": "~0.1.1",
+    "gulp-rename": "~0.2.2",
+    "gulp-uglify": "~0.1.0"
+  },
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "author": "Jonathan Buchanan <jonathan.buchanan@gmail.com>"
+}
